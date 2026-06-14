@@ -43,3 +43,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# MINI-V Common Packages
+$(call inherit-product, vendor/mini-v/config/mini-v.mk)
