@@ -1,0 +1,7 @@
+<manifest version="5.0" type="device" target-level="7">
+    <hal format="aidl">
+        <name>vendor.miniv.ai</name>
+        <version>1</version>  <!-- 🔍 aidl_api freeze 버전과 대조 확인 필요 -->
+        <fqname>IMiniVAiHal/default</fqname>
+    </hal>
+</manifest>
