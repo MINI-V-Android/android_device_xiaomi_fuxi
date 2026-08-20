@@ -31,8 +31,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# >>> MINI-V 추가 [MOD-01] (Step 3.4 — HAL VINTF manifest 등록)
+#HAL VINTF manifest 등록
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/config/vintf/manifest_miniv.xml
-# <<< MINI-V 추가 끝 [MOD-01]
 
 include vendor/xiaomi/fuxi/BoardConfigVendor.mk
