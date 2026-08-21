@@ -33,5 +33,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 #HAL VINTF manifest 등록
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/config/vintf/manifest_miniv.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/config/vintf/compatibility_matrix_miniv.xml
 
 include vendor/xiaomi/fuxi/BoardConfigVendor.mk
